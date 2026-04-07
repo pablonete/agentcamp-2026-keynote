@@ -126,7 +126,24 @@ Me paso a digiKam
 Probé Darktable y no me convenció (además no soporta vídeos)
 
 # Nace Tenacitas
-...
+Instalo OpenClaw y le creo Gmail y GitHub user
+- No co-author
+- No PAT para usar mis repos
+
+<div class="columns">
+<div>
+### Pablonete 
+
+![w:300](images/github-mosaic-pablonete.png)
+
+</div>
+<div>
+### Tenacitas
+
+![w:300](images/github-mosaic-tenacitas.png)
+
+</div>
+</div>
 
 # Skills de fotos
 
