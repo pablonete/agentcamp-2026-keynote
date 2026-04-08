@@ -7,13 +7,8 @@ theme: uncover
 class: 
   - invert
 style: |
-  .columns {
-    display: flex;
-    gap: 1rem;
-  }
-  .columns > div {
-    flex: 1 1 0;
-  }
+[]()  .columns { display: flex; gap: 1rem; }
+  .columns > div { flex: 1 1 0; }
 -->
 
 # Keynote
