@@ -159,6 +159,17 @@ Se apoyan en algunos MCP
 | digikam-mcp        | Lee info de fotos, escribe atributos y ejecuta queries |
 | movistar-cloud-mcp | Consulta y sube archivos a esa nube                    |
 
+# <!--fit--> Paseando a Tenacitas
+Algunas de mis conversaciones
+con Tenacitas en Telegram
+# /board
+Añadiendo ideas al GitHub Project
+![bg right:33%](images/openclaw-telegram-board-vuelafotos-tasks.jpg)
+# /bancos
+Subiendo extractos mensuales
+para generar summary.md
+![bg right](images/openclaw-telegram-bankinter-links-escaping.jpg) 
+
 # Test columns
 
 <div class="columns">
