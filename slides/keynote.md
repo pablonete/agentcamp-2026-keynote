@@ -7,7 +7,7 @@ theme: uncover
 class: 
   - invert
 style: |
-[]()  .columns { display: flex; gap: 1rem; }
+  .columns { display: flex; gap: 1rem; }
   .columns > div { flex: 1 1 0; }
 -->
 
@@ -162,29 +162,13 @@ Se apoyan en algunos MCP
 # <!--fit--> Paseando a Tenacitas
 Algunas de mis conversaciones
 con Tenacitas en Telegram
+# Cuenta de Google
+Google desactivó la cuenta de Tenacitas
+y la recuperamos
+![bg right](images/openclaw-telegram-google-account-recovery.jpg)
 # /board
 Añadiendo ideas al GitHub Project
 ![bg right:33%](images/openclaw-telegram-board-vuelafotos-tasks.jpg)
-# /bancos
-Subiendo extractos mensuales
-para generar summary.md
-![bg right](images/openclaw-telegram-bankinter-links-escaping.jpg) 
-# /sd-to-hdd
-Volcando 116GB de la Insta360
-directamente al HDD
-![bg right](images/openclaw-telegram-sd-to-hdd-jueves-santo.jpg)
-# /sd-to-hdd
-Copia de 69GB desde la Insta360
-con nombre de evento
-![bg right](images/openclaw-telegram-sd-copy-insta360-telegram.jpg)
-# /fotos-from-onedrive
-Arregla el lockscreen caído
-y trae 481 fotos nuevas de golpe
-![bg right](images/openclaw-telegram-hyprlock-crash-fix.jpg)
-# /radio
-Onda Cero Málaga
-con un comando
-![bg right](images/openclaw-telegram-radio-ondacero-control.jpg)
 # /notas
 Apuntando ideas para la keynote
 desde el móvil
@@ -197,17 +181,33 @@ con botones inline
 Buscando en qué varal sale el fisio
 en la Crucifixión
 ![bg right](images/openclaw-telegram-interac-crucifixion-search.jpg)
-# /peris-sl-gasto
-Factura de Movistar registrada
-con PR automático en GitHub
-![bg right](images/openclaw-telegram-movistar-invoice-registered.jpg)
-# Skills de fotos
+# Skills
 Lista de skills disponibles
 en Telegram con /
 ![bg right](images/openclaw-telegram-skills-list-commands.jpg)
+# /stop
+A veces no ve cosas fáciles
+y se lia
+![bg right](images/openclaw-telegram-osp-children-start-bug.jpg)
+# Cron jobs
+Depurando por qué los crons
+no llegan a Telegram
+![bg right](images/openclaw-telegram-cron-outbound-channel-fix.jpg)
+
+# /fotos-from-onedrive
+Arregla el lockscreen caído
+y trae 481 fotos nuevas de golpe
+![bg right](images/openclaw-telegram-hyprlock-crash-fix.jpg)
+# /sd-to-hdd
+Volcando de la SD al HDD
+![bg right](images/openclaw-telegram-sd-to-hdd-jueves-santo.jpg)
+# /sd-to-hdd
+Ahora con nombre de evento
+![bg right](images/openclaw-telegram-sd-copy-insta360-telegram.jpg)
+
 # Fotos Triage
-App web accesible desde el móvil
-vía Tailscale
+Primera versión
+Accesible desde el móvil vía Tailscale
 ![bg right](images/openclaw-telegram-photos-triage-source-list.jpg)
 # Fotos Triage
 Generando JSONs por evento
@@ -217,7 +217,11 @@ y vaciando el disco
 Rediseño del flujo de carpetas:
 triaging → triaged
 ![bg right](images/openclaw-telegram-triaging-folder-redesign.jpg)
-# Exportar fotos
+# /photos-triage-search
+Nuevo skill: buscar fotos
+con lenguaje natural
+![bg right](images/openclaw-telegram-photos-search-skill-plan.jpg)
+# /fotos-to-onedrive
 Debug de álbum raíz en DigiKam
 para exportar 372 fotos de diciembre
 ![bg right](images/openclaw-telegram-photo-export-digikam-debug.jpg)
@@ -225,42 +229,22 @@ para exportar 372 fotos de diciembre
 Plan para compartir listas
 de fotos públicamente
 ![bg right](images/openclaw-telegram-photo-open-share-plan.jpg)
-# photos-triage-search
-Nuevo skill: buscar fotos
-con lenguaje natural
-![bg right](images/openclaw-telegram-photos-search-skill-plan.jpg)
 # Movistar Cloud
 Descubriendo la API interna SAPI
 para subidas sin timeout
 ![bg right](images/openclaw-telegram-movistar-sapi-api-discovery.jpg)
 # Movistar Cloud
 Resolviendo la autenticación:
-JSESSIONID es lo único que importa
+de Playwright a API
 ![bg right](images/openclaw-telegram-movistar-sapi-jsessionid.jpg)
 # Movistar Cloud
-Fix de OOM: streaming en lugar de
-cargar 1.8GB en memoria de golpe
+Se dio cuenta: streaming en lugar de
+cargar archivos grandes en memoria
 ![bg right](images/openclaw-telegram-movistar-upload-oom-fix.jpg)
-# Privacidad
-El número de teléfono estaba
-hardcodeado — lo elimina al momento
+# Movistar Cloud
+No recuerdes mi teléfono
+¡Que no lo recuerdes!
 ![bg right](images/openclaw-telegram-movistar-phone-privacy-fix.jpg)
-# Cuenta de Google
-Google desactivó la cuenta de Tenacitas
-y la recuperamos
-![bg right](images/openclaw-telegram-google-account-recovery.jpg)
-# Cron jobs
-Depurando por qué los crons
-no llegaban a Telegram
-![bg right](images/openclaw-telegram-cron-outbound-channel-fix.jpg)
-# Datos fiscales
-Comparativa 2024 vs 2025
-con PDFs de la AEAT
-![bg right](images/openclaw-telegram-tax-data-pdf-comparison.jpg)
-# El modelo no responde
-Explicación del error a las 3am:
-modo mantenimiento del proveedor
-![bg right](images/openclaw-telegram-model-error-explanation.jpg)
 # Vibe coding
 Depurando drag & drop en la webapp
 directamente por Telegram
@@ -269,22 +253,39 @@ directamente por Telegram
 Renderizando vídeo con GPU
 y arreglando el vflip de VAAPI
 ![bg right](images/openclaw-telegram-video-render-upside-down-fix.jpg)
-# OSP
-Bug en children de Medinaceli:
-start/end None por clips sin trim
-![bg right](images/openclaw-telegram-osp-children-start-bug.jpg)
-# El ordenador
+
+# El MiniPC
 ffmpeg al 84% de CPU
 transcodeando vídeos
 ![bg right](images/openclaw-telegram-btop-ffmpeg-encoding.jpg)
-# El ordenador
+# El MiniPC
 Celeron con btop a pantalla completa —
 hace más de lo que parece
 ![bg right](images/openclaw-telegram-desktop-btop-fullscreen.jpg)
-# Rollback
-Spotify con PipeWire: demasiada
-complejidad, se cancela
+# El modelo no responde
+Explicación del error a las 3am:
+modo mantenimiento del proveedor
+![bg right](images/openclaw-telegram-model-error-explanation.jpg)
+# /radio
+Onda Cero Málaga
+con un comando
+![bg right](images/openclaw-telegram-radio-ondacero-control.jpg)
+# Spotify no
+Intenté conectar Spotify pero se lio
 ![bg right](images/openclaw-telegram-spotify-alsa-rollback-decision.jpg)
+
+# /bancos
+Subiendo extractos mensuales
+para generar summary.md
+![bg right](images/openclaw-telegram-bankinter-links-escaping.jpg) 
+# /peris-sl-gasto
+Factura de Movistar registrada
+con PR automático en GitHub
+![bg right](images/openclaw-telegram-movistar-invoice-registered.jpg)
+# Datos fiscales
+Comparativa 2024 vs 2025
+con PDFs de la AEAT
+![bg right](images/openclaw-telegram-tax-data-pdf-comparison.jpg)
 
 # Test columns
 
