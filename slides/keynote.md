@@ -127,7 +127,7 @@ Volantazo a digiKam
 # OpenClaw
 Agente de IA
 en tu propia máquina
-![bg right](images/openclaw-logo.png)
+![bg right](images/openclaw-screenshot.jpg)
 
 # El agente y el modelo
 OpenClaw orquesta el agente
@@ -233,7 +233,7 @@ y se lia
 # Tailscale
 Túnel seguro entre dispositivos
 y publicar webs con HTTPS
-![bg right](images/tailscale-logo.png)
+![bg right](images/tailscale-screenshot.jpg)
 
 # /fotos-from-onedrive
 Arregla el lockscreen caído
