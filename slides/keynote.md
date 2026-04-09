@@ -189,23 +189,6 @@ con face recognition
 # <!--fit--> Paseando a Tenacitas
 Algunas de mis conversaciones
 con Tenacitas en Telegram
-# Cuenta de Google
-Google desactivó la cuenta de Tenacitas
-Pero la recuperamos
-![bg right](images/openclaw-telegram-google-account-recovery.jpg)
-# /board
-Añadiendo ideas al GitHub Project
-![bg right:33%](images/openclaw-telegram-board-vuelafotos-tasks.jpg)
-# /notas
-Apuntando ideas para la keynote
-![bg right](images/openclaw-telegram-keynote-notes-added.jpg)
-# /notas
-Organizando mi TODO
-con botones inline
-![bg right](images/openclaw-telegram-notes-todo-organisation.jpg)
-# /interac
-Buscando en las notas
-![bg right](images/openclaw-telegram-interac-crucifixion-search.jpg)
 # Skills
 Nunca consigo que salgan todos
 ![bg right](images/openclaw-telegram-skills-list-commands.jpg)
@@ -213,10 +196,6 @@ Nunca consigo que salgan todos
 A veces no ve cosas fáciles
 y se lia
 ![bg right](images/openclaw-telegram-osp-children-start-bug.jpg)
-# Cron jobs
-Depurando por qué los crons
-no llegan a Telegram
-![bg right](images/openclaw-telegram-cron-outbound-channel-fix.jpg)
 
 # /fotos-from-onedrive
 Arregla el lockscreen caído
@@ -280,32 +259,5 @@ para encoding de video 1080p
 Explicación del error a las 3am:
 modo mantenimiento del proveedor
 ![bg right](images/openclaw-telegram-model-error-explanation.jpg)
-# /radio
-Just for fun
-![bg right](images/openclaw-telegram-radio-ondacero-control.jpg)
-# Spotify no
-Intenté conectar Spotify pero se lio
-![bg right](images/openclaw-telegram-spotify-alsa-rollback-decision.jpg)
 
-# /bancos
-Subiendo extractos mensuales
-para generar summary.md
-![bg right](images/openclaw-telegram-bankinter-links-escaping.jpg) 
-# /peris-sl-gasto
-Factura de Movistar registrada
-con PR automático en GitHub
-![bg right](images/openclaw-telegram-movistar-invoice-registered.jpg)
-# Datos fiscales
-Comparativa 2024 vs 2025
-con PDFs de la AEAT
-![bg right](images/openclaw-telegram-tax-data-pdf-comparison.jpg)
-
-
-# TODO
-
-Nuevas fotos a (inbox)
-Empiezo a usar Digikam para etiquetar y rating, pero veo el cuello de botella
-Puedo hacer una web? Digikam usa una BD sqlite
-Empieza la magia
-Creo un PoC puzzle de alguna foto mía, para resolverlo desde el móvil
 
