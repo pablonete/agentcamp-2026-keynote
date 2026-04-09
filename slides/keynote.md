@@ -305,6 +305,7 @@ para encoding de video 1080p
 - Edición básica
 - Share público
 - Memory videos
+- Auto tagging
 
 # Takeaways
 - 📷 Fotos: triage, export, memory
