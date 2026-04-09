@@ -125,8 +125,8 @@ Volantazo a digiKam
 	Location 👎 (via GPS)
 
 # OpenClaw
-Agente de IA
-en tu propia máquina
+Open-source
+¿El SO de la IA?
 ![bg right](images/openclaw-screenshot.jpg)
 
 # El agente y el modelo
