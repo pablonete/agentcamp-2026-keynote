@@ -10,10 +10,6 @@ style: |
 
 <!-- footer: Agentcamp 2026 -->
 <!-- paginate: true -->
-# Cuenta de Google
-Google desactivó la cuenta de Tenacitas
-Pero la recuperamos
-![bg right](images/openclaw-telegram-google-account-recovery.jpg)
 # /board
 Añadiendo ideas al GitHub Project
 ![bg right:33%](images/openclaw-telegram-board-vuelafotos-tasks.jpg)

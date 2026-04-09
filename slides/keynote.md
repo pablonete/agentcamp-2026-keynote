@@ -34,7 +34,7 @@ Miembro de
 
 Bizcocho - [Saeteros](https://youtube.com/clip/Ugkx5vroDIDXbeAZQISZT3JM7ktYtkY8ZMBF)
 
-# Fotógrafo
+# Fotógrafo aficionado
 Reflex, móvil, 360... y vídeos
 
 Adobe Lightroom catalogs
@@ -104,12 +104,11 @@ Uso un inbox y luego exporto las 3* a OneDrive
 servir mis fotos via web y catalogar y editar
 Desde un PC siempre encendido (bajo consumo!)
 -->
-GitHub: Markdowns y project e issues...
-
-![w:600](images/dhh-tweet.png)
-<sub>https://x.com/dhh/status/2020156016629797193?s=20</sub>
-
-# MiniPC Celeron
+Trazo plan con Copilot
+- PLAN.md
+- Issues
+- Project board
+# MiniPC
 <!--
 N5095A
 Mi crío me lo devolvió porque no reproducía Youtube
@@ -117,20 +116,29 @@ Al poco de empezar, volantazo
 /giphy Coche salida autovia
 Probé Darktable y no me convenció (además no soporta vídeos)
 -->
-Recupero MiniPC abandonado
+Recupero MiniPC desahuciado
+Celeron N5095A
+Hace más de lo que pensaba
+
+![bg right](images/openclaw-telegram-desktop-btop-fullscreen.jpg)
 
 # Omarchy
 Modern & Opinionated Linux
 
-![bg](images/omarchy-screenshot.jpg)
+![w:600](images/dhh-tweet.png)
+<sub>https://x.com/dhh/status/2020156016629797193?s=20</sub>
+
+
+![bg right](images/omarchy-screenshot.jpg)
 
 # OpenClaw
 Open-source
-¿El SO de la IA?
+¿El SO de la agéntica?
 ![bg right](images/openclaw-screenshot.jpg)
 
 # Nace Tenacitas
-Instalo OpenClaw y le creo Gmail y GitHub user
+Su Gmail (no acceso a mi email)
+Y su GitHub user
 - No co-author, [sus commits](https://github.com/pablonete/agentcamp-2026-keynote/commits/main/slides)
 - No PAT para usar mis repos en mi nombre
 
@@ -149,15 +157,20 @@ Tenacitas
 </div>
 </div>
 
+# Baneada
+Google la desactivó
+Skill `gog`  *parecía* un bot
+Pero apelamos y 🥳
+![bg right](images/openclaw-telegram-google-account-recovery.jpg)
+
 # El agente y el modelo
 
-![bg right](el-agente-y-el-modelo.jpg)
+![bg right](images/el-agente-y-el-modelo.jpg)
 
-OpenClaw define el agente
-y orquesta subagentes
+OpenClaw  agente
+orquesta subagentes
 
-El modelo es intercambiable
-Yo uso **Claude Sonnet 4.6** 
+Uso **Claude Sonnet 4.6** 
 vía GitHub Copilot
 
 <!-- 
@@ -165,13 +178,21 @@ OpenClaw es el runtime: gestiona sesiones, skills, canales (Telegram, Discord...
 El "cerebro" es el modelo de lenguaje — en mi caso Claude Sonnet 4.6, accedido gratis a través de GitHub Copilot.
 Como cambiar el motor de un coche: el chasis (OpenClaw) es el mismo, el motor (modelo) puede ser otro.
 -->
-# LLM en la nube
+# Modelo en la nube
 Under maintenance
 En 1 mes esto me ha pasado 2 veces
-![bg right](images/openclaw-telegram-model-error-explanation.jpg)
+![bg right:30%](images/openclaw-telegram-model-error-explanation.jpg)
+
+# Immich 🛑
+Tu propio Google Photos
+auto-hospedado
+
+No es lo que necesito ahora
+
+![bg right](images/immich-screenshot.png)
 
 # digiKam
-- Gestión de fotos open source
+- Open source 👍
 - Face recognition 👍
 - Rating and tagging 👍
 - Location 👎 (via GPS)
@@ -201,38 +222,29 @@ En 1 mes esto me ha pasado 2 veces
 
 # MCPs
 
-| MCP                | Descripción                                                                                |
-| ------------------ | ------------------------------------------------------------------------------------------ |
-| digikam-mcp        | Lee info de fotos<br>Escribe tags, ratings...<br>Search: ejecuta queries<br>Mueve carpetas |
-| movistar-cloud-mcp | Sube archivos a esa nube                                                                   |
+| MCP                | Descripción                                                                                 |
+| ------------------ | ------------------------------------------------------------------------------------------- |
+| digikam-mcp        | Lee info de sqlite<br>Escribe tags, ratings...<br>Search: ejecuta queries<br>Mueve carpetas |
+| movistar-cloud-mcp | Sube archivos a esa nube                                                                    |
 
 # Escala
-LLM → Skill → Software
+1. Chat
+2. Skill
+3. Software
 
+![w:600](images/tweet-matias-3.jpg)
 https://x.com/woloski/status/2036251852312903943
-
-# Immich
-Tu propio Google Photos
-auto-hospedado
-
-![bg](images/immich-screenshot.png)
-
 
 # <!--fit--> Paseando a Tenacitas
 Algunas de mis conversaciones
-con Tenacitas en Telegram
+con Openclaw en Telegram
 # Skills
 Nunca consigo que salgan todos
 ![bg right](images/openclaw-telegram-skills-list-commands.jpg)
 # /stop
 A veces no ve cosas fáciles
 y se lia
-![bg right](images/openclaw-telegram-osp-children-start-bug.jpg)
-
-# Tailscale
-Túnel seguro entre dispositivos
-y publicar webs con HTTPS
-![bg right](images/tailscale-screenshot.jpg)
+![bg right:30%](images/openclaw-telegram-osp-children-start-bug.jpg)
 
 # /fotos-from-onedrive
 Arregla el lockscreen caído
@@ -245,8 +257,7 @@ Ahora con nombre de evento
 ![bg right](images/openclaw-telegram-sd-copy-insta360-telegram.jpg)
 
 # Fotos Triage
-De photo-puzzle a una webapp
-accesible desde el móvil vía Tailscale
+Webapp para el móvil
 ![bg right](images/photos-triage-seleccion.jpg)
 # Fotos Triage
 Seleccionar, rating y tags
@@ -256,6 +267,11 @@ en cada foto
 Guardado en JSON en GitHub
 y commitado a DigiKam
 ![bg right](images/photos-triage-detail.jpg)
+# Tailscale
+Túnel seguro entre dispositivos
+y publicar con HTTPS
+![bg right](images/tailscale-screenshot.jpg)
+
 # /photos-triage-search
 Nuevo skill para buscar fotos
 ![bg right](images/openclaw-telegram-photos-search-skill-plan.jpg)
@@ -290,10 +306,6 @@ directamente por Telegram
 
 https://x.com/pablonete/status/2036878616961638507
 
-# El MiniPC
-Celeron N5095A
-hace más de lo que pensaba
-![bg right](images/openclaw-telegram-desktop-btop-fullscreen.jpg)
 # Vibe coding
 <!-- Bajo consumo, suficiente para low-res, VA-API flipping -->
 Aprovechando la mini-GPU
