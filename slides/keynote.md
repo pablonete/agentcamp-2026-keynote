@@ -144,6 +144,9 @@ Tenacitas
 </div>
 </div>
 
+# Nuevo Workflow
+
+![w:1200](mermaid/openclaw.workflow.jpg)
 # Skills de fotos
 <style scoped>section { font-size: 32px; }</style>
 
@@ -165,9 +168,6 @@ Tenacitas
 | digikam-mcp        | Lee info de fotos<br>Escribe tags, ratings...<br>Search: ejecuta queries<br>Mueve carpetas |
 | movistar-cloud-mcp | Sube archivos a esa nube                                                                   |
 
-# Diagram
-
-![w:800](mermaid/openclaw.workflow.jpg)
 # Omarchy
 Beautiful, Modern & Opinionated Linux
 por DHH
@@ -274,6 +274,7 @@ hace más de lo que pensaba
 # Vibe coding
 <!-- Bajo consumo, suficiente para low-res, VA-API flipping -->
 Aprovechando la mini-GPU
+para encoding de video 1080p
 ![bg right](images/openclaw-telegram-video-render-upside-down-fix.jpg)
 # El modelo no responde
 Explicación del error a las 3am:
