@@ -8,14 +8,12 @@ style: |
   .columns > div { flex: 1 1 0; }
 ---
 
-# Keynote
+# <!--fit--> Keynote
+Pablo Núñez
+*@pablonete*
 
 ![bg left](images/agentcamp-logo.png)
 
-
-# <!--fit--> ¿Esas fotos, dónde irán?
-Bizcocho - Saeteros
-https://youtube.com/clip/Ugkx5vroDIDXbeAZQISZT3JM7ktYtkY8ZMBF
 
 # Pablo Núñez
 
@@ -29,6 +27,12 @@ Miembro de
 
 <!-- footer: Agentcamp 2026 -->
 <!-- paginate: true -->
+# <!--fit--> Y esos vídeos, ¿dónde irán?
+
+![w:700](images/saeteros.png)
+
+Bizcocho - [Saeteros](https://youtube.com/clip/Ugkx5vroDIDXbeAZQISZT3JM7ktYtkY8ZMBF)
+
 # Fotógrafo
 Reflex, móvil, 360... y vídeos
 
