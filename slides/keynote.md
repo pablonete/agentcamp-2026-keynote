@@ -39,7 +39,7 @@ Reflex, móvil, 360... y vídeos
 Adobe Lightroom catalogs
 Miles de fotos en HDDs desde 2007
 
-Google Photos?
+Google Photos 👎
 
 <!-- 
 Disfruto más disparando que retocando
@@ -57,6 +57,16 @@ Y VIDEOS!
 Todo entra en (nuevas) donde esperan que las catalogue
 Y luego exporto las 3* a OneDrive
 
+````mermaid
+graph TD
+	A[Start] --> B{Is it?};
+	B -- Yes --> C[OK];
+	B -- No --> D[KO];
+	C --> E[End];
+	D --> E;
+````
+
+OneDrive & SD  ➡  HDDs  ➡  Lightroom  ➡  OneDrive
 # Etiquetado
 <!--
 - Rating:
@@ -99,28 +109,30 @@ Tengo que meter la IA en mi flujo
 Me da vértigo cambiar y decido trazar un plan
 
 # Todo empieza con un Repo
-Usar GitHub como persistencia para interacciones con IA usando MD
-Escribo plan para usar Immich, tu propio Google Photos
-La idea es servir mis fotos via web de forma privada
+<!--
+servir mis fotos via web y catalogar y editar
 Desde un PC siempre encendido (bajo consumo!)
-Y ya me caliento para usar un agente IA que me ayude
-dhh vendiendo que lo primero que instala en un PC es LLM
+-->
+GitHub: Markdowns y project e issues...
+Immich (bajo consumo!)
 
-![w:400](images/dhh-tweet.png)
-https://x.com/dhh/status/2020156016629797193?s=20
+![w:600](images/dhh-tweet.png)
+<sub>https://x.com/dhh/status/2020156016629797193?s=20</sub>
 
 # MiniPC Celeron
-Decido ponerlo en un Linux ligero
-	Recupero MiniPC abandonado
-		Mi crío me lo devolvió porque no reproducía Youtube
-	Instalo Omarchy (no tan ligero pero wow)
+<!--
+N5095A
+Mi crío me lo devolvió porque no reproducía Youtube
 Al poco de empezar, volantazo
 /giphy Coche salida autovia
-Me paso a digiKam
+Probé Darktable y no me convenció (además no soporta vídeos)
+-->
+Recupero MiniPC abandonado con Linux
+	Instalo Omarchy (no tan ligero pero wow)
+Volantazo a digiKam
 	Face recognition 👍
 	Rating and tagging 👍
 	Location 👎 (via GPS)
-Probé Darktable y no me convenció (además no soporta vídeos)
 
 # Nace Tenacitas
 Instalo OpenClaw y le creo Gmail y GitHub user
