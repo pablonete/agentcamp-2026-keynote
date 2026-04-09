@@ -53,11 +53,9 @@ pero nunca lo vi como un reemplazo, not mine
 Fotos de múltiples fuentes
 Cámaras (desde SD)
 Móviles (vía OneDrive)
-Y VIDEOS!
-Todo entra en (nuevas) donde esperan que las catalogue
-Y luego exporto las 3* a OneDrive
+Uso un inbox y luego exporto las 3* a OneDrive
+![w:800](mermaid/lightroom.workflow.jpg)
 
-OneDrive & SD  ➡  HDDs  ➡  Lightroom  ➡  OneDrive
 # Etiquetado
 <!--
 - Rating:
@@ -168,18 +166,7 @@ Tenacitas
 
 # Diagram
 
-```mermaid
-graph TD
-    A[Start] --> B[Process]
-    B --> C[End]
-```
-
-```mermaid
-flowchart TD
-    A[Start] --> B[Process]
-    B --> C[End]
-```
-
+![w:800](mermaid/openclaw.workflow.jpg)
 # <!--fit--> Paseando a Tenacitas
 Algunas de mis conversaciones
 con Tenacitas en Telegram
