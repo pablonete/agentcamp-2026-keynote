@@ -21,8 +21,9 @@ Software Engineer at GitHub
 
 Miembro de 
 - ~~MalagaDnug~~ DotNetMalaga 
-- AzureMalaga 
 - OpenSouthCode
+- AzureMalaga 
+- MalagaAI 
 ## @pablonete
 
 <!-- footer: Agentcamp 2026 -->
@@ -47,13 +48,15 @@ Bibliotecario frustrado, me gusta archivar
 
 Usé Google Photos mientras fue gratis
 pero nunca lo vi como un reemplazo, not mine
+Colecciones dinamicas FTW
 -->
 
-# Workflow
+# Workflow anterior
 Fotos de múltiples fuentes
 Cámaras (desde SD)
 Móviles (vía OneDrive)
 Uso un inbox y luego exporto las 3* a OneDrive
+
 ![w:800](mermaid/lightroom.workflow.jpg)
 
 # Etiquetado
@@ -67,7 +70,6 @@ Uso un inbox y luego exporto las 3* a OneDrive
 	- No viene de réflex, 360...
 	- Difícil buscar
 -->
-- Workflow basado en Lightroom
 - Rating: 2*, 3*, 4*, 5*
 - Tags
 	- Personas, mascotas
@@ -91,11 +93,11 @@ Uso un inbox y luego exporto las 3* a OneDrive
 	Llego a dejar de tirar fotos por no aumentar la bola de nieve
 	Meses dándole vueltas a cómo aprovechar la IA en mi flujo
 -->
-Adobe está matando Lightroom
-Nueva Insta360 que no encajaba en mi flujo
+- Adobe está matando Lightroom $ $ $
+- Nueva Insta360 que no encajaba
 
-Tengo que meter la IA en mi flujo
-Me da vértigo cambiar y decido trazar un plan
+- Tengo que aprovechar la IA
+- Me da vértigo cambiar y decido trazar un plan
 
 # Todo empieza con un Repo
 <!--
@@ -103,7 +105,6 @@ servir mis fotos via web y catalogar y editar
 Desde un PC siempre encendido (bajo consumo!)
 -->
 GitHub: Markdowns y project e issues...
-Immich (bajo consumo!)
 
 ![w:600](images/dhh-tweet.png)
 <sub>https://x.com/dhh/status/2020156016629797193?s=20</sub>
