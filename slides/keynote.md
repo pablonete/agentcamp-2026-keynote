@@ -129,6 +129,18 @@ Agente de IA
 en tu propia máquina
 ![bg right](images/openclaw-logo.png)
 
+# El agente y el modelo
+OpenClaw orquesta el agente
+El modelo es intercambiable
+
+**Claude Sonnet 4.6** vía GitHub Copilot
+
+<!-- 
+OpenClaw es el runtime: gestiona sesiones, skills, canales (Telegram, Discord...).
+El "cerebro" es el modelo de lenguaje — en mi caso Claude Sonnet 4.6, accedido gratis a través de GitHub Copilot.
+Como cambiar el motor de un coche: el chasis (OpenClaw) es el mismo, el motor (modelo) puede ser otro.
+-->
+
 # Nace Tenacitas
 Instalo OpenClaw y le creo Gmail y GitHub user
 - No co-author
