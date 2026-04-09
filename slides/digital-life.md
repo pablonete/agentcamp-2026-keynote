@@ -53,6 +53,17 @@ con PDFs de la AEAT
 ![bg right](images/openclaw-telegram-tax-data-pdf-comparison.jpg)
 
 
+# digital-life
+Un repo que los indexa a todos
+
+| Tipo | Ejemplos |
+|------|----------|
+| 🏠 Propiedades | property.UM25, property.CF2E |
+| 💰 Finanzas | paypa.bancos, peris-pablonete-sl |
+| 📷 Fotos | vuelafotos |
+| 📝 Notas | obsidian.tenacitas |
+| 👥 Social | social-interactions |
+
 # TODO
 
 Nuevas fotos a (inbox)

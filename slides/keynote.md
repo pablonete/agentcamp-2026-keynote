@@ -144,6 +144,11 @@ Tenacitas
 </div>
 </div>
 
+# El modelo no responde
+Explicación del error a las 3am:
+modo mantenimiento del proveedor
+![bg right](images/openclaw-telegram-model-error-explanation.jpg)
+
 # Nuevo Workflow
 
 ![w:1200](mermaid/openclaw.workflow.png)
@@ -276,10 +281,5 @@ para encoding de video 1080p
 - Edición básica
 - Share público
 - Memory videos
-
-# El modelo no responde
-Explicación del error a las 3am:
-modo mantenimiento del proveedor
-![bg right](images/openclaw-telegram-model-error-explanation.jpg)
 
 
