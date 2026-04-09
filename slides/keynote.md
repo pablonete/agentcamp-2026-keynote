@@ -152,7 +152,8 @@ Tenacitas
 | photos-triage-search  | Busca fotos en Digikam                    |
 | fotos-to-onedrive     | Exporta fotos 3* a OneDrive               |
 | photos-to-movistar    | Backup videos 360 a Movistar Cloud        |
-Se apoyan en algunos MCP
+
+# MCPs
 
 | MCP                | Descripción                                            |
 | ------------------ | ------------------------------------------------------ |
@@ -164,26 +165,23 @@ Algunas de mis conversaciones
 con Tenacitas en Telegram
 # Cuenta de Google
 Google desactivó la cuenta de Tenacitas
-y la recuperamos
+Pero la recuperamos
 ![bg right](images/openclaw-telegram-google-account-recovery.jpg)
 # /board
 Añadiendo ideas al GitHub Project
 ![bg right:33%](images/openclaw-telegram-board-vuelafotos-tasks.jpg)
 # /notas
 Apuntando ideas para la keynote
-desde el móvil
 ![bg right](images/openclaw-telegram-keynote-notes-added.jpg)
 # /notas
-Organizando el TODO
+Organizando mi TODO
 con botones inline
 ![bg right](images/openclaw-telegram-notes-todo-organisation.jpg)
 # /interac
-Buscando en qué varal sale el fisio
-en la Crucifixión
+Buscando en las notas
 ![bg right](images/openclaw-telegram-interac-crucifixion-search.jpg)
 # Skills
-Lista de skills disponibles
-en Telegram con /
+Nunca consigo que salgan todos
 ![bg right](images/openclaw-telegram-skills-list-commands.jpg)
 # /stop
 A veces no ve cosas fáciles
@@ -196,7 +194,6 @@ no llegan a Telegram
 
 # /fotos-from-onedrive
 Arregla el lockscreen caído
-y trae 481 fotos nuevas de golpe
 ![bg right](images/openclaw-telegram-hyprlock-crash-fix.jpg)
 # /sd-to-hdd
 Volcando de la SD al HDD
@@ -210,28 +207,22 @@ Primera versión
 Accesible desde el móvil vía Tailscale
 ![bg right](images/openclaw-telegram-photos-triage-source-list.jpg)
 # Fotos Triage
-Generando JSONs por evento
-y vaciando el disco
-![bg right](images/openclaw-telegram-triage-list-march-april.jpg)
-# Fotos Triage
-Rediseño del flujo de carpetas:
-triaging → triaged
+Iteración a nuevo formato
+Y nuevas carpetas
+Plan!
 ![bg right](images/openclaw-telegram-triaging-folder-redesign.jpg)
 # /photos-triage-search
-Nuevo skill: buscar fotos
-con lenguaje natural
+Nuevo skill para buscar fotos
 ![bg right](images/openclaw-telegram-photos-search-skill-plan.jpg)
 # /fotos-to-onedrive
-Debug de álbum raíz en DigiKam
-para exportar 372 fotos de diciembre
+Incluyendo meses
+Pide dry-run para validar
 ![bg right](images/openclaw-telegram-photo-export-digikam-debug.jpg)
 # photo-open
-Plan para compartir listas
-de fotos públicamente
+Compartir fotos públicamente
 ![bg right](images/openclaw-telegram-photo-open-share-plan.jpg)
 # Movistar Cloud
-Descubriendo la API interna SAPI
-para subidas sin timeout
+Descubriendo la API interna
 ![bg right](images/openclaw-telegram-movistar-sapi-api-discovery.jpg)
 # Movistar Cloud
 Resolviendo la autenticación:
@@ -249,26 +240,21 @@ No recuerdes mi teléfono
 Depurando drag & drop en la webapp
 directamente por Telegram
 ![bg right](images/openclaw-telegram-drag-drop-clip-debug.jpg)
-# Vibe coding
-Renderizando vídeo con GPU
-y arreglando el vflip de VAAPI
-![bg right](images/openclaw-telegram-video-render-upside-down-fix.jpg)
 
 # El MiniPC
-ffmpeg al 84% de CPU
-transcodeando vídeos
-![bg right](images/openclaw-telegram-btop-ffmpeg-encoding.jpg)
-# El MiniPC
-Celeron con btop a pantalla completa —
-hace más de lo que parece
+Celeron N5095A
+hace más de lo que pensaba
 ![bg right](images/openclaw-telegram-desktop-btop-fullscreen.jpg)
+# Vibe coding
+<!-- Bajo consumo, suficiente para low-res, VA-API flipping -->
+Aprovechando la mini-GPU
+![bg right](images/openclaw-telegram-video-render-upside-down-fix.jpg)
 # El modelo no responde
 Explicación del error a las 3am:
 modo mantenimiento del proveedor
 ![bg right](images/openclaw-telegram-model-error-explanation.jpg)
 # /radio
-Onda Cero Málaga
-con un comando
+Just for fun
 ![bg right](images/openclaw-telegram-radio-ondacero-control.jpg)
 # Spotify no
 Intenté conectar Spotify pero se lio
@@ -287,21 +273,6 @@ Comparativa 2024 vs 2025
 con PDFs de la AEAT
 ![bg right](images/openclaw-telegram-tax-data-pdf-comparison.jpg)
 
-# Test columns
-
-<div class="columns">
-<div>
-
-## One
-
-</div>
-
-<div>
-
-## Two
-
-</div>
-</div>
 
 # TODO
 
@@ -310,6 +281,4 @@ Empiezo a usar Digikam para etiquetar y rating, pero veo el cuello de botella
 Puedo hacer una web? Digikam usa una BD sqlite
 Empieza la magia
 Creo un PoC puzzle de alguna foto mía, para resolverlo desde el móvil
-Primer photo-triage
-
 
