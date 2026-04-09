@@ -172,6 +172,11 @@ Tenacitas
 | digikam-mcp        | Lee info de fotos<br>Escribe tags, ratings...<br>Search: ejecuta queries<br>Mueve carpetas |
 | movistar-cloud-mcp | Sube archivos a esa nube                                                                   |
 
+# Escala
+LLM → Skill → Software
+
+https://x.com/woloski/status/2036251852312903943
+
 # Omarchy
 Beautiful, Modern & Opinionated Linux
 por DHH
@@ -212,14 +217,17 @@ Ahora con nombre de evento
 ![bg right](images/openclaw-telegram-sd-copy-insta360-telegram.jpg)
 
 # Fotos Triage
-Primera versión
-Accesible desde el móvil vía Tailscale
-![bg right](images/openclaw-telegram-photos-triage-source-list.jpg)
+De photo-puzzle a una webapp
+accesible desde el móvil vía Tailscale
+![bg right](images/photos-triage-seleccion.jpg)
 # Fotos Triage
-Iteración a nuevo formato
-Y nuevas carpetas
-Plan!
-![bg right](images/openclaw-telegram-triaging-folder-redesign.jpg)
+Seleccionar, rating y tags
+en cada foto
+![bg right](images/photos-triage-grid.jpg)
+# Fotos Triage
+Guardado en JSON en GitHub
+y commitado a DigiKam
+![bg right](images/photos-triage-detail.jpg)
 # /photos-triage-search
 Nuevo skill para buscar fotos
 ![bg right](images/openclaw-telegram-photos-search-skill-plan.jpg)
@@ -250,6 +258,10 @@ Depurando drag & drop en la webapp
 directamente por Telegram
 ![bg right](images/openclaw-telegram-drag-drop-clip-debug.jpg)
 
+# Todos somos QA
+
+https://x.com/pablonete/status/2036878616961638507
+
 # El MiniPC
 Celeron N5095A
 hace más de lo que pensaba
@@ -259,6 +271,12 @@ hace más de lo que pensaba
 Aprovechando la mini-GPU
 para encoding de video 1080p
 ![bg right](images/openclaw-telegram-video-render-upside-down-fix.jpg)
+# Mejoras futuras
+- Location desde GPS
+- Edición básica
+- Share público
+- Memory videos
+
 # El modelo no responde
 Explicación del error a las 3am:
 modo mantenimiento del proveedor
