@@ -124,10 +124,29 @@ Volantazo a digiKam
 	Rating and tagging 👍
 	Location 👎 (via GPS)
 
+# OpenClaw
+Agente de IA
+en tu propia máquina
+![bg right](images/openclaw-screenshot.jpg)
+
+# El agente y el modelo
+OpenClaw orquesta el agente
+El modelo es intercambiable
+
+**Claude Sonnet 4.6** vía GitHub Copilot
+
+<!-- 
+OpenClaw es el runtime: gestiona sesiones, skills, canales (Telegram, Discord...).
+El "cerebro" es el modelo de lenguaje — en mi caso Claude Sonnet 4.6, accedido gratis a través de GitHub Copilot.
+Como cambiar el motor de un coche: el chasis (OpenClaw) es el mismo, el motor (modelo) puede ser otro.
+-->
+
 # Nace Tenacitas
 Instalo OpenClaw y le creo Gmail y GitHub user
 - No co-author
 - No PAT para usar mis repos en mi nombre
+
+<sub>https://github.com/pablonete/agentcamp-2026-keynote/commits/main/slides</sub>
 
 <div class="columns">
 <div>
@@ -144,9 +163,18 @@ Tenacitas
 </div>
 </div>
 
+# El modelo no responde
+Explicación del error a las 3am:
+modo mantenimiento del proveedor
+![bg right](images/openclaw-telegram-model-error-explanation.jpg)
+
 # Nuevo Workflow
 
-![w:1200](mermaid/openclaw.workflow.jpg)
+![w:1200](mermaid/openclaw.workflow.png)
+
+# Nuevo Workflow
+
+![w:1200](mermaid/openclaw.workflow.skills.png)
 # Skills de fotos
 <style scoped>section { font-size: 32px; }</style>
 
@@ -167,6 +195,11 @@ Tenacitas
 | ------------------ | ------------------------------------------------------------------------------------------ |
 | digikam-mcp        | Lee info de fotos<br>Escribe tags, ratings...<br>Search: ejecuta queries<br>Mueve carpetas |
 | movistar-cloud-mcp | Sube archivos a esa nube                                                                   |
+
+# Escala
+LLM → Skill → Software
+
+https://x.com/woloski/status/2036251852312903943
 
 # Omarchy
 Beautiful, Modern & Opinionated Linux
@@ -189,23 +222,6 @@ con face recognition
 # <!--fit--> Paseando a Tenacitas
 Algunas de mis conversaciones
 con Tenacitas en Telegram
-# Cuenta de Google
-Google desactivó la cuenta de Tenacitas
-Pero la recuperamos
-![bg right](images/openclaw-telegram-google-account-recovery.jpg)
-# /board
-Añadiendo ideas al GitHub Project
-![bg right:33%](images/openclaw-telegram-board-vuelafotos-tasks.jpg)
-# /notas
-Apuntando ideas para la keynote
-![bg right](images/openclaw-telegram-keynote-notes-added.jpg)
-# /notas
-Organizando mi TODO
-con botones inline
-![bg right](images/openclaw-telegram-notes-todo-organisation.jpg)
-# /interac
-Buscando en las notas
-![bg right](images/openclaw-telegram-interac-crucifixion-search.jpg)
 # Skills
 Nunca consigo que salgan todos
 ![bg right](images/openclaw-telegram-skills-list-commands.jpg)
@@ -213,10 +229,11 @@ Nunca consigo que salgan todos
 A veces no ve cosas fáciles
 y se lia
 ![bg right](images/openclaw-telegram-osp-children-start-bug.jpg)
-# Cron jobs
-Depurando por qué los crons
-no llegan a Telegram
-![bg right](images/openclaw-telegram-cron-outbound-channel-fix.jpg)
+
+# Tailscale
+Túnel seguro entre dispositivos
+y publicar webs con HTTPS
+![bg right](images/tailscale-screenshot.jpg)
 
 # /fotos-from-onedrive
 Arregla el lockscreen caído
@@ -229,14 +246,17 @@ Ahora con nombre de evento
 ![bg right](images/openclaw-telegram-sd-copy-insta360-telegram.jpg)
 
 # Fotos Triage
-Primera versión
-Accesible desde el móvil vía Tailscale
-![bg right](images/openclaw-telegram-photos-triage-source-list.jpg)
+De photo-puzzle a una webapp
+accesible desde el móvil vía Tailscale
+![bg right](images/photos-triage-seleccion.jpg)
 # Fotos Triage
-Iteración a nuevo formato
-Y nuevas carpetas
-Plan!
-![bg right](images/openclaw-telegram-triaging-folder-redesign.jpg)
+Seleccionar, rating y tags
+en cada foto
+![bg right](images/photos-triage-grid.jpg)
+# Fotos Triage
+Guardado en JSON en GitHub
+y commitado a DigiKam
+![bg right](images/photos-triage-detail.jpg)
 # /photos-triage-search
 Nuevo skill para buscar fotos
 ![bg right](images/openclaw-telegram-photos-search-skill-plan.jpg)
@@ -267,6 +287,10 @@ Depurando drag & drop en la webapp
 directamente por Telegram
 ![bg right](images/openclaw-telegram-drag-drop-clip-debug.jpg)
 
+# Todos somos QA
+
+https://x.com/pablonete/status/2036878616961638507
+
 # El MiniPC
 Celeron N5095A
 hace más de lo que pensaba
@@ -276,36 +300,19 @@ hace más de lo que pensaba
 Aprovechando la mini-GPU
 para encoding de video 1080p
 ![bg right](images/openclaw-telegram-video-render-upside-down-fix.jpg)
-# El modelo no responde
-Explicación del error a las 3am:
-modo mantenimiento del proveedor
-![bg right](images/openclaw-telegram-model-error-explanation.jpg)
-# /radio
-Just for fun
-![bg right](images/openclaw-telegram-radio-ondacero-control.jpg)
-# Spotify no
-Intenté conectar Spotify pero se lio
-![bg right](images/openclaw-telegram-spotify-alsa-rollback-decision.jpg)
+# Mejoras futuras
+- Location desde GPS
+- Edición básica
+- Share público
+- Memory videos
+- Auto tagging
 
-# /bancos
-Subiendo extractos mensuales
-para generar summary.md
-![bg right](images/openclaw-telegram-bankinter-links-escaping.jpg) 
-# /peris-sl-gasto
-Factura de Movistar registrada
-con PR automático en GitHub
-![bg right](images/openclaw-telegram-movistar-invoice-registered.jpg)
-# Datos fiscales
-Comparativa 2024 vs 2025
-con PDFs de la AEAT
-![bg right](images/openclaw-telegram-tax-data-pdf-comparison.jpg)
+# Takeaways
+- 📷 Fotos: triage, export, memory
+- 🦞 OpenClaw: agente en tu máquina
+- 📁 Repos GitHub como vida digital
+- 💬 Vibe-coding desde Telegram
+- 🧠 AGENTS.md vs Skill vs Memoria
+- ⚡ Matias: Chat → Skill → Software
 
-
-# TODO
-
-Nuevas fotos a (inbox)
-Empiezo a usar Digikam para etiquetar y rating, pero veo el cuello de botella
-Puedo hacer una web? Digikam usa una BD sqlite
-Empieza la magia
-Creo un PoC puzzle de alguna foto mía, para resolverlo desde el móvil
 
