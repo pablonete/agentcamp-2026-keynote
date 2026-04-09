@@ -117,36 +117,22 @@ Al poco de empezar, volantazo
 /giphy Coche salida autovia
 Probé Darktable y no me convenció (además no soporta vídeos)
 -->
-Recupero MiniPC abandonado con Linux
-	Instalo Omarchy (no tan ligero pero wow)
-Volantazo a digiKam
-	Face recognition 👍
-	Rating and tagging 👍
-	Location 👎 (via GPS)
+Recupero MiniPC abandonado
+
+# Omarchy
+Modern & Opinionated Linux
+
+![bg](images/omarchy-screenshot.jpg)
 
 # OpenClaw
 Open-source
 ¿El SO de la IA?
 ![bg right](images/openclaw-screenshot.jpg)
 
-# El agente y el modelo
-OpenClaw orquesta el agente
-El modelo es intercambiable
-
-**Claude Sonnet 4.6** vía GitHub Copilot
-
-<!-- 
-OpenClaw es el runtime: gestiona sesiones, skills, canales (Telegram, Discord...).
-El "cerebro" es el modelo de lenguaje — en mi caso Claude Sonnet 4.6, accedido gratis a través de GitHub Copilot.
-Como cambiar el motor de un coche: el chasis (OpenClaw) es el mismo, el motor (modelo) puede ser otro.
--->
-
 # Nace Tenacitas
 Instalo OpenClaw y le creo Gmail y GitHub user
-- No co-author
+- No co-author, [sus commits](https://github.com/pablonete/agentcamp-2026-keynote/commits/main/slides)
 - No PAT para usar mis repos en mi nombre
-
-<sub>https://github.com/pablonete/agentcamp-2026-keynote/commits/main/slides</sub>
 
 <div class="columns">
 <div>
@@ -163,16 +149,40 @@ Tenacitas
 </div>
 </div>
 
-# El modelo no responde
-Explicación del error a las 3am:
-modo mantenimiento del proveedor
+# El agente y el modelo
+
+![bg right](el-agente-y-el-modelo.jpg)
+
+OpenClaw define el agente
+y orquesta subagentes
+
+El modelo es intercambiable
+Yo uso **Claude Sonnet 4.6** 
+vía GitHub Copilot
+
+<!-- 
+OpenClaw es el runtime: gestiona sesiones, skills, canales (Telegram, Discord...).
+El "cerebro" es el modelo de lenguaje — en mi caso Claude Sonnet 4.6, accedido gratis a través de GitHub Copilot.
+Como cambiar el motor de un coche: el chasis (OpenClaw) es el mismo, el motor (modelo) puede ser otro.
+-->
+# LLM en la nube
+Under maintenance
+En 1 mes esto me ha pasado 2 veces
 ![bg right](images/openclaw-telegram-model-error-explanation.jpg)
+
+# digiKam
+- Gestión de fotos open source
+- Face recognition 👍
+- Rating and tagging 👍
+- Location 👎 (via GPS)
+
+![bg right](images/digikam-screenshot.webp)
 
 # Nuevo Workflow
 
 ![w:1200](mermaid/openclaw.workflow.png)
 
-# Nuevo Workflow
+# Nuevo Workflow Skills
 
 ![w:1200](mermaid/openclaw.workflow.skills.png)
 # Skills de fotos
@@ -201,23 +211,12 @@ LLM → Skill → Software
 
 https://x.com/woloski/status/2036251852312903943
 
-# Omarchy
-Beautiful, Modern & Opinionated Linux
-por DHH
-
-![bg](images/omarchy-screenshot.jpg)
-
 # Immich
 Tu propio Google Photos
 auto-hospedado
 
 ![bg](images/immich-screenshot.png)
 
-# digiKam
-Gestión de fotos open source
-con face recognition
-
-![bg](images/digikam-screenshot.webp)
 
 # <!--fit--> Paseando a Tenacitas
 Algunas de mis conversaciones
