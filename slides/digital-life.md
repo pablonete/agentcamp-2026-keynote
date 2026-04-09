@@ -32,19 +32,6 @@ Depurando por qué los crons
 no llegan a Telegram
 ![bg right](images/openclaw-telegram-cron-outbound-channel-fix.jpg)
 
-# Vibe coding
-Depurando drag & drop en la webapp
-directamente por Telegram
-![bg right](images/openclaw-telegram-drag-drop-clip-debug.jpg)
-
-# Vibe coding
-<!-- Bajo consumo, suficiente para low-res, VA-API flipping -->
-Aprovechando la mini-GPU
-![bg right](images/openclaw-telegram-video-render-upside-down-fix.jpg)
-# El modelo no responde
-Explicación del error a las 3am:
-modo mantenimiento del proveedor
-![bg right](images/openclaw-telegram-model-error-explanation.jpg)
 # /radio
 Just for fun
 ![bg right](images/openclaw-telegram-radio-ondacero-control.jpg)
