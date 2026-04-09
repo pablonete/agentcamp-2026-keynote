@@ -32,7 +32,7 @@ Miembro de
 
 ![w:700](images/saeteros.png)
 
-Bizcocho - [Saeteros](https://youtube.com/clip/Ugkx5vroDIDXbeAZQISZT3JM7ktYtkY8ZMBF)
+Bizcocho - [Saetero](https://youtube.com/clip/Ugkx5vroDIDXbeAZQISZT3JM7ktYtkY8ZMBF)
 
 # Fotógrafo aficionado
 Reflex, móvil, 360... y vídeos
@@ -132,9 +132,17 @@ Modern & Opinionated Linux
 ![bg right](images/omarchy-screenshot.jpg)
 
 # OpenClaw
-Open-source
+Tenía que ser open-source
 ¿El SO de la agéntica?
+Modelo complejo de seguridad
+Pero sigue teniendo riesgos
 ![bg right](images/openclaw-screenshot.jpg)
+
+<!-- 
+Las cosas cambian muy rápido, Openclaw es una sacudida. Anthropic ha cerrado el grifo esta semana y trastoca lo que mucha gente está haciendo. Pro y contra de ser OpenSource. Viva el OpenSource, es la única forma de hacer esto — una empresa no podría lanzar un producto como Openclaw
+
+Llevo un mes con esto y cuando me planteo hacer la keynote digo "cómo le voy a enseñar yo a nadie". No pretendo que sea una charla en profundidad. No tengo ni siquiera para resolver dudas — solo puedo resolver sobre lo que yo he hecho, no sobre cómo funciona Openclaw, su modelo no es sencillo (modelo de seguridad, modelo de Chrome, modelo de agentes). No es trivial. Yo he conocido lo mínimo que he necesitado para ir haciendo progresos.
+-->
 
 # Nace Tenacitas
 Su Gmail (no acceso a mi email)
@@ -228,12 +236,16 @@ No es lo que necesito ahora
 | movistar-cloud-mcp | Sube archivos a esa nube                                                                    |
 
 # Escala
-1. Chat
-2. Skill
-3. Software
+1. Chat - improvisa
+2. Skill - flexible
+3. Código - estable
 
 ![w:600](images/tweet-matias-3.jpg)
 https://x.com/woloski/status/2036251852312903943
+
+<!--
+Lo bueno de los skills: son flexibles. Mientras se ejecutan puedes estar opinando y cambiándole el comportamiento sobre la marcha.
+-->
 
 # <!--fit--> Paseando a Tenacitas
 Algunas de mis conversaciones
@@ -248,82 +260,105 @@ y se lia
 
 # /fotos-from-onedrive
 Arregla el lockscreen caído
-![bg right](images/openclaw-telegram-hyprlock-crash-fix.jpg)
+![bg right:30%](images/openclaw-telegram-hyprlock-crash-fix.jpg)
 # /sd-to-hdd
 Volcando de la SD al HDD
-![bg right](images/openclaw-telegram-sd-to-hdd-jueves-santo.jpg)
+![bg right:30%](images/openclaw-telegram-sd-to-hdd-jueves-santo.jpg)
 # /sd-to-hdd
 Ahora con nombre de evento
-![bg right](images/openclaw-telegram-sd-copy-insta360-telegram.jpg)
+![bg right:30%](images/openclaw-telegram-sd-copy-insta360-telegram.jpg)
 
 # Fotos Triage
-Webapp para el móvil
-![bg right](images/photos-triage-seleccion.jpg)
+Custom webapp 
+Para el móvil
+![bg right:30%](images/photos-triage-seleccion.jpg)
 # Fotos Triage
 Seleccionar, rating y tags
 en cada foto
-![bg right](images/photos-triage-grid.jpg)
+![bg right:30%](images/photos-triage-grid.jpg)
 # Fotos Triage
 Guardado en JSON en GitHub
 y commitado a DigiKam
-![bg right](images/photos-triage-detail.jpg)
+![bg right:30%](images/photos-triage-detail.jpg)
 # Tailscale
 Túnel seguro entre dispositivos
 y publicar con HTTPS
 ![bg right](images/tailscale-screenshot.jpg)
 
 # /photos-triage-search
-Nuevo skill para buscar fotos
-![bg right](images/openclaw-telegram-photos-search-skill-plan.jpg)
+Skill para buscar fotos
+Genera Json
+![bg right:30%](images/openclaw-telegram-photos-search-skill-plan.jpg)
 # /fotos-to-onedrive
 Incluyendo meses
 Pide dry-run para validar
-![bg right](images/openclaw-telegram-photo-export-digikam-debug.jpg)
-# photo-open
-Compartir fotos públicamente
-![bg right](images/openclaw-telegram-photo-open-share-plan.jpg)
+![bg right:30%](images/openclaw-telegram-photo-export-digikam-debug.jpg)
+# Foto Open
+Otra custom webapp
+Para compartir fotos
+- Public
+- Unlisted
+![bg right:30%](images/openclaw-telegram-photo-open-share-plan.jpg)
 # Movistar Cloud
 Descubriendo la API interna
-![bg right](images/openclaw-telegram-movistar-sapi-api-discovery.jpg)
+![bg right:30%](images/openclaw-telegram-movistar-sapi-api-discovery.jpg)
 # Movistar Cloud
-Resolviendo la autenticación:
-de Playwright a API
-![bg right](images/openclaw-telegram-movistar-sapi-jsessionid.jpg)
+Resolviendo la autenticación
+![bg right:30%](images/openclaw-telegram-movistar-sapi-jsessionid.jpg)
 # Movistar Cloud
-Se dio cuenta: streaming en lugar de
-cargar archivos grandes en memoria
-![bg right](images/openclaw-telegram-movistar-upload-oom-fix.jpg)
+Errores con archivos grandes
+Se dio cuenta: usa streaming
+![bg right:30%](images/openclaw-telegram-movistar-upload-oom-fix.jpg)
 # Movistar Cloud
 No recuerdes mi teléfono
 ¡Que no lo recuerdes!
-![bg right](images/openclaw-telegram-movistar-phone-privacy-fix.jpg)
+![bg right:30%](images/openclaw-telegram-movistar-phone-privacy-fix.jpg)
 # Vibe coding
-Depurando drag & drop en la webapp
-directamente por Telegram
-![bg right](images/openclaw-telegram-drag-drop-clip-debug.jpg)
+Depurando drag & drop via Telegram
 
-# Todos somos QA
+> Vibe-coding is working as a QA fulltime.
 
-https://x.com/pablonete/status/2036878616961638507
+<sub>https://x.com/pablonete/status/2036878616961638507</sub>
+
+![bg right:30%](images/openclaw-telegram-drag-drop-clip-debug.jpg)
 
 # Vibe coding
 <!-- Bajo consumo, suficiente para low-res, VA-API flipping -->
 Aprovechando la mini-GPU
 para encoding de video 1080p
-![bg right](images/openclaw-telegram-video-render-upside-down-fix.jpg)
+
+Hulio, ¿VA-API qué es lo que es?
+![bg right:30%](images/openclaw-telegram-video-render-upside-down-fix.jpg)
+
 # Mejoras futuras
 - Location desde GPS
-- Edición básica
-- Share público
+- Edición básica, automatizada
 - Memory videos
 - Auto tagging
+- Añadir años pasados
+- Publicar open-source MCPs y más
+
+# Retro primer mes
+- Niño con juguete nuevo
+- Mil ideas
+- Velocidad muy alta: olvido cosas
+- Estoy usando 5-10% de OpenClaw y es wow
+- He montado esto mientras revisé +5500 fotos
 
 # Takeaways
-- 📷 Fotos: triage, export, memory
-- 🦞 OpenClaw: agente en tu máquina
-- 📁 Repos GitHub como vida digital
-- 💬 Vibe-coding desde Telegram
+- 🦞 OpenClaw: más posibilidades cuanto más lo usas
+
+- 📷 Fotos: plan, ejecuta, itera, custom
+
+- 📁 Repos: persistencia, visibilidad, coordinación
+
 - 🧠 AGENTS.md vs Skill vs Memoria
+
 - ⚡ Matias: Chat → Skill → Software
+
+- 👺 Vibe-coding, ¿cuándo reviso el código?
+
+# <!--fit-->Gracias 🦞
+<!-- color: red -->
 
 
