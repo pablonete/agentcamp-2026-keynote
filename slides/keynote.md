@@ -167,6 +167,24 @@ Tenacitas
 # Diagram
 
 ![w:800](mermaid/openclaw.workflow.jpg)
+# Omarchy
+Beautiful, Modern & Opinionated Linux
+por DHH
+
+![w:300](images/omarchy-logo.png)
+
+# Immich
+Tu propio Google Photos
+auto-hospedado
+
+![w:300](images/immich-logo.svg)
+
+# digiKam
+Gestión de fotos open source
+con face recognition
+
+![w:300](images/digikam-logo.png)
+
 # <!--fit--> Paseando a Tenacitas
 Algunas de mis conversaciones
 con Tenacitas en Telegram
