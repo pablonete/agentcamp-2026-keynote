@@ -57,15 +57,6 @@ Y VIDEOS!
 Todo entra en (nuevas) donde esperan que las catalogue
 Y luego exporto las 3* a OneDrive
 
-````mermaid
-graph TD
-	A[Start] --> B{Is it?};
-	B -- Yes --> C[OK];
-	B -- No --> D[KO];
-	C --> E[End];
-	D --> E;
-````
-
 OneDrive & SD  ➡  HDDs  ➡  Lightroom  ➡  OneDrive
 # Etiquetado
 <!--
@@ -155,24 +146,39 @@ Tenacitas
 </div>
 
 # Skills de fotos
+<style scoped>section { font-size: 32px; }</style>
 
-| Skill                 | Descripción                               |
-| --------------------- | ----------------------------------------- |
-| fotos-from-onedrive   | Descarga fotos del Camera roll al Inbox   |
-| sd-to-hdd             | Copia fotos/videos de la tarjeta al Inbox |
-| photos-digikam-backup | Copia el catálogo de Digikam              |
-| photos-triage-start   | Genera 1 o más JSON de fotos en el Inbox  |
-| photos-triage-commit  | Escribe rating & tags a fotos del Inbox   |
-| photos-triage-search  | Busca fotos en Digikam                    |
-| fotos-to-onedrive     | Exporta fotos 3* a OneDrive               |
-| photos-to-movistar    | Backup videos 360 a Movistar Cloud        |
+| Skill                  | Descripción               |
+| ---------------------- | ------------------------- |
+| /fotos-from-onedrive   | Del Camera roll al Inbox  |
+| /sd-to-hdd             | De la tarjeta al Inbox    |
+| /photos-digikam-backup | Catálogo sólo             |
+| /photos-triage-start   | JSON de fotos para review |
+| /photos-triage-commit  | Graba review              |
+| /photos-triage-search  | Busca en Digikam          |
+| /fotos-to-onedrive     | 3* a OneDrive             |
+| /photos-to-movistar    | Raw 360 videos            |
 
 # MCPs
 
-| MCP                | Descripción                                            |
-| ------------------ | ------------------------------------------------------ |
-| digikam-mcp        | Lee info de fotos, escribe atributos y ejecuta queries |
-| movistar-cloud-mcp | Consulta y sube archivos a esa nube                    |
+| MCP                | Descripción                                                                                |
+| ------------------ | ------------------------------------------------------------------------------------------ |
+| digikam-mcp        | Lee info de fotos<br>Escribe tags, ratings...<br>Search: ejecuta queries<br>Mueve carpetas |
+| movistar-cloud-mcp | Sube archivos a esa nube                                                                   |
+
+# Diagram
+
+```mermaid
+graph TD
+    A[Start] --> B[Process]
+    B --> C[End]
+```
+
+```mermaid
+flowchart TD
+    A[Start] --> B[Process]
+    B --> C[End]
+```
 
 # <!--fit--> Paseando a Tenacitas
 Algunas de mis conversaciones
