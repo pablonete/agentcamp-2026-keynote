@@ -172,19 +172,19 @@ Tenacitas
 Beautiful, Modern & Opinionated Linux
 por DHH
 
-![w:300](images/omarchy-logo.png)
+![bg](images/omarchy-screenshot.jpg)
 
 # Immich
 Tu propio Google Photos
 auto-hospedado
 
-![w:300](images/immich-logo.svg)
+![bg](images/immich-screenshot.png)
 
 # digiKam
 Gestión de fotos open source
 con face recognition
 
-![w:300](images/digikam-logo.png)
+![bg](images/digikam-screenshot.webp)
 
 # <!--fit--> Paseando a Tenacitas
 Algunas de mis conversaciones
