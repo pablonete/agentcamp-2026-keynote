@@ -124,6 +124,11 @@ Volantazo a digiKam
 	Rating and tagging 👍
 	Location 👎 (via GPS)
 
+# OpenClaw
+Agente de IA
+en tu propia máquina
+![bg right](images/openclaw-logo.png)
+
 # Nace Tenacitas
 Instalo OpenClaw y le creo Gmail y GitHub user
 - No co-author
@@ -212,6 +217,11 @@ Nunca consigo que salgan todos
 A veces no ve cosas fáciles
 y se lia
 ![bg right](images/openclaw-telegram-osp-children-start-bug.jpg)
+
+# Tailscale
+Túnel seguro entre dispositivos
+y publicar webs con HTTPS
+![bg right](images/tailscale-logo.png)
 
 # /fotos-from-onedrive
 Arregla el lockscreen caído
