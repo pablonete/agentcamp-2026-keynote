@@ -1,7 +1,4 @@
 ---
-
----
-<!--
 headingDivider: 1
 theme: uncover
 class: 
@@ -9,7 +6,7 @@ class:
 style: |
   .columns { display: flex; gap: 1rem; }
   .columns > div { flex: 1 1 0; }
--->
+---
 
 # Keynote
 
@@ -20,29 +17,33 @@ style: |
 Bizcocho - Saeteros
 https://youtube.com/clip/Ugkx5vroDIDXbeAZQISZT3JM7ktYtkY8ZMBF
 
-# Presentación
+# Pablo Núñez
+
 Software Engineer at GitHub
-Member of ~~MalagaDnug~~ DotNetMalaga AzureMalaga OpenSouthCode
+
+Miembro de 
+- ~~MalagaDnug~~ DotNetMalaga 
+- AzureMalaga 
+- OpenSouthCode
+## @pablonete
 
 <!-- footer: Agentcamp 2026 -->
 <!-- paginate: true -->
 # Fotógrafo
-Nikon D40
-Nikon D5500
-Sony A6000
-Insta360 X3
+Reflex, móvil, 360... y vídeos
 
-Fotógrafo compulsivo
+Adobe Lightroom catalogs
+Miles de fotos en HDDs desde 2007
 
-Lightroom
-# 
+Google Photos?
+
+<!-- 
 Disfruto más disparando que retocando
 Bibliotecario frustrado, me gusta archivar
 
-# Catálogos
-Miles de fotos en HDDs desde 2007
 Usé Google Photos mientras fue gratis
 pero nunca lo vi como un reemplazo, not mine
+-->
 
 # Workflow
 Fotos de múltiples fuentes
@@ -53,50 +54,47 @@ Todo entra en (nuevas) donde esperan que las catalogue
 Y luego exporto las 3* a OneDrive
 
 # Etiquetado
-- Rating
+<!--
+- Rating:
 	- 2 estrellas: día
 	- 3 estrellas: mes
 	- 4 estrellas: año
 	- 5 estrellas: best ever
+- GPS no es lo mejor
+	- No viene de réflex, 360...
+	- Difícil buscar
+-->
+- Workflow basado en Lightroom
+- Rating: 2*, 3*, 4*, 5*
 - Tags
-	- Personas. Face recognizition
-	- Mascotas. No face recognition
-	- `Playa`, `Bicicleta`, `Senderismo`
-	- `Baloncesto`, `Fútbol`, `Unicaja`, `MálagaCF`
-	- `Amanecer`, `Atardecer`, `Selfie`
-	- `Fotografía`: artística (o simplemente no privada, se puede publicar)
-	- `Semana Santa`: cofradías + trono + cristo|virgen
-- Location
-	- GPS no es lo mejor
-		- No viene de réflex, 360...
-		- Difícil buscar
-	- Prefiero jerarquía: País > Provincia > Ciudad > Lugar
+	- Personas, mascotas
+	- `Playa`, `Bicicleta`, `Baloncesto`, `Fútbol`, `Amanecer`, `Selfie`
+- Location por jerarquía:
+	- País > Provincia > Ciudad > Lugar
 
 # Cuellos de botella
-Muchos
 - Ingestión (volcado lento)
 - Etiquetar, varios pasos
-- Revisita de ratings
-- Requiere tiempo de foco en el ordenador
+- Revisión de ratings 🌟
+- Requiere tiempo en el ordenador
 - Edición, aunque sea básica: niveles, crop, horizon-level
+## Yo
 
 # Atascado
-En 2025 estuve muy bloqueado
-Lightroom OFF
+<!-- 
 	Modelo de licencia repulsivo
 	Soy usuario cautivo
-Distraido con la Insta360 que no encajaba en mi flujo
-Llego a dejar de tirar fotos por no aumentar la bola de nieve
+	Cada vez más bloqueado en 2025, voy hacia atrás
+	Llego a dejar de tirar fotos por no aumentar la bola de nieve
+	Meses dándole vueltas a cómo aprovechar la IA en mi flujo
+-->
+Adobe está matando Lightroom
+Nueva Insta360 que no encajaba en mi flujo
 
-# Entre-veo la luz
-Meses dándole vueltas a cómo aprovechar la IA en mi flujo
-Carlos es testigo
-Sé que tengo que abandonar Lightroom
-Llevaba meses usándolo sólo para Reflex
+Tengo que meter la IA en mi flujo
 Me da vértigo cambiar y decido trazar un plan
-/giphy Formulas flying
 
-# Necesito un Repo para planificar
+# Todo empieza con un Repo
 Usar GitHub como persistencia para interacciones con IA usando MD
 Escribo plan para usar Immich, tu propio Google Photos
 La idea es servir mis fotos via web de forma privada
