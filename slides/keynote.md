@@ -129,6 +129,8 @@ Instalo OpenClaw y le creo Gmail y GitHub user
 - No co-author
 - No PAT para usar mis repos en mi nombre
 
+<sub>https://github.com/pablonete/agentcamp-2026-keynote/commits/main/slides</sub>
+
 <div class="columns">
 <div>
 Pablonete 
@@ -281,5 +283,13 @@ para encoding de video 1080p
 - Edición básica
 - Share público
 - Memory videos
+
+# Takeaways
+- 📷 Fotos: triage, export, memory
+- 🦞 OpenClaw: agente en tu máquina
+- 📁 Repos GitHub como vida digital
+- 💬 Vibe-coding desde Telegram
+- 🧠 AGENTS.md vs Skill vs Memoria
+- ⚡ Matias: Chat → Skill → Software
 
 
