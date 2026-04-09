@@ -1,11 +1,11 @@
 ```mermaid
 flowchart LR
-	A[fotos-from-onedrive] --> C[HDDs]
-	B[sd-to-hdd] --> C
-	C --> D[Digikam]
-	D --> F[photos-triage]
-	F -->|commit| D
-	D -->|publish| G[photo-open]
-	D -->|3*| E[OneDrive]
-	C --> H[Movistar Cloud]
+	A[📱 Móvil] --> C[💾 Disco duro]
+	B[📷 Cámara] --> C
+	C --> D[🗂️ Catalogar]
+	D --> F[⭐ Clasificar]
+	F -->|ratings & tags| D
+	D -->|compartir| G[🌐 Publicar]
+	D -->|3★| E[☁️ OneDrive]
+	C --> H[🎬 Vídeos 360]
 ```

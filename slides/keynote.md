@@ -146,7 +146,11 @@ Tenacitas
 
 # Nuevo Workflow
 
-![w:1200](mermaid/openclaw.workflow.jpg)
+![w:1200](mermaid/openclaw.workflow.png)
+
+# Nuevo Workflow
+
+![w:1200](mermaid/openclaw.workflow.skills.png)
 # Skills de fotos
 <style scoped>section { font-size: 32px; }</style>
 
