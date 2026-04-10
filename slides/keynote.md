@@ -1,9 +1,9 @@
 ---
 headingDivider: 1
 theme: uncover
-class: 
+class:
   - invert
-style: |
+style: |-
   .columns { display: flex; gap: 1rem; }
   .columns > div { flex: 1 1 0; }
 ---
@@ -360,5 +360,7 @@ Hulio, ¿VA-API qué es lo que es?
 
 # <!--fit-->Gracias 🦞
 <!-- color: red -->
+
+@pablonete
 
 
