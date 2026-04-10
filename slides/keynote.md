@@ -266,7 +266,7 @@ Volcando de la SD al HDD
 ![bg right:30%](images/openclaw-telegram-sd-to-hdd-jueves-santo.jpg)
 # /sd-to-hdd
 Ahora con nombre de evento
-![bg right:30%](images/openclaw-telegram-sd-copy-insta360-telegram.jpg)
+![bg right](images/openclaw-telegram-sd-copy-insta360-telegram.jpg)
 
 # Fotos Triage
 Custom webapp 
