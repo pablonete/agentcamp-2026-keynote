@@ -4,6 +4,7 @@
 - Webcam
 - HDMI adapter
 - Test audio
+- Altavoz (Cola Cao)
 - Opcional: mando controller
 
 # Bloques (25 min)
